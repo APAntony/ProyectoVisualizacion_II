@@ -1,6 +1,6 @@
 #principal{
 	width: 900px;
-	height: 900px;
+	height: auto; overflow: hidden;
 	border: 1px solid #000;
 	margin: auto;
 }
@@ -19,14 +19,16 @@
 	margin-top: 50px;
 }
 
-.boton{
+#seccion-botones a{
 	width: 200px;
 	height: 100px;
-	border: 1px solid #000;
+	border: 1px solid #ccc;
+	border-radius: .5em;
 	text-decoration: none;
 	padding: 10px 25px 10px 20px;
-	margin: 50px;
-	cursor: pointer;
+	margin: 25px;
+	margin-bottom: 10px;
+	text-align: center;
 }
 
 .boton:hover{
@@ -35,6 +37,39 @@
 	transition: background 0.5s, color 0.5s;
 }
 
-.btn1{
+#btn1{
 	margin-right: 50px;
+}
+
+#campos{
+	margin-top: 100px;
+	text-align: center;
+}
+
+#encabezado{
+	font-style: larger;
+}
+
+#campos_texto{
+	width: 900px;
+	height: auto; overflow: 
+	text-align: center;
+}
+
+#campos p{
+	width: auto; overflow:;
+	height: auto; overflow:;
+	float: left;
+	margin-top: 2px;
+	padding: 0px 20px 0px 25px
+}
+
+.campo{
+	float: left;
+	border-radius: 5em;
+	margin-right: 90px;
+}
+
+.poco{
+	margin-left: 11px;
 }
