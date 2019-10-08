@@ -1,5 +1,5 @@
 final int CANVAS_WIDTH_DEFAULT  = 1000;
-final int CANVAS_HEIGHT_DEFAULT = 600;
+final int CANVAS_HEIGHT_DEFAULT = 700;
 
 final String DATA_FILE_PATH = "PC2-Datos.csv";
 
@@ -7,7 +7,7 @@ ForceDirectedGraph forceDirectedGraph;
 ControlPanel controlPanel;
 
 public void settings() {
-  size(1000, 600);
+  size(1000, 700);
 }
 
 void setup(){
